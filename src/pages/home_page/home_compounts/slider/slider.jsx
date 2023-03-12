@@ -35,13 +35,8 @@ setInterval(() => {
         behavior:"smooth"
       })
     }, 4000);
-     
-     
-    
   
   });
-
-  
 
 }, 6000);
 

@@ -2,7 +2,9 @@ import React from 'react'
 import './header.css'
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { TfiLocationPin } from 'react-icons/tfi';
-import { IoBagHandleSharp } from 'react-icons/io5';
+import { HiOutlineShoppingBag } from 'react-icons/hi';
+import { BsShop } from 'react-icons/bs';
+import { VscAccount } from 'react-icons/vsc';
 
 function header() {
   return (
@@ -38,9 +40,19 @@ function header() {
             <div className='header_icon_group'>
 
                 <div className='header_icon'>       
-                        <IoBagHandleSharp size={24}/>
+                        <VscAccount size={24}/>
+                        <p>Login</p>
+                </div>
+
+                <div className='header_icon'>       
+                        <HiOutlineShoppingBag size={24}/>
                         <p>Bag</p>
-                    </div>
+                </div>
+                
+                <div className='header_icon'>       
+                        <BsShop size={24}/>
+                        <p>Your shop</p>
+                </div>
                 
             </div>
 
